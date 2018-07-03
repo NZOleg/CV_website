@@ -1,0 +1,21 @@
+.navBar {
+    list-style-type: none;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f1f1f1;
+    z-index: 500;
+    display: block;
+}
+.navItem{
+    font-family: Montserrat,sans-serif;
+    font-weight: 300;
+    float: right;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding-left: 2em;
+    padding-right: 3em;
+}
