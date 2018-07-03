@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './NavBar.css';
 
 
-const navBar = function (props) {
+const navBar =  (props) => {
 
 	return (
 		<nav>

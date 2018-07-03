@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 import NavBar from  './NavBar/NavBar';
+import Welcome from  './Welcome/Welcome';
+import ProjectList from  './ProjectList/ProjectList';
+import About from  './About/About';
+import Contact from  './Contact/Contact';
+
+
+import classes from './App.css';
 
 class App extends Component {
   render() {
     return (
-        <div>
+        <div className={classes.app}>
           <NavBar/>
-            <div>
-                Matt Thorry is a full stack web developer, educator & all-around good person living in mist and foggy  New York City
-            </div>
-            <div>Projects</div>
-            <div>Project 1 </div>
-            <div>Project 2 </div>
-            <div>Project 3 </div>
-            <div>Project 4 </div>
-            <div>Background</div>
-            <div>Matt Thorry is a full stack web developer, educator & all-around good person living in mist and foggy  New York City</div>
-            <div>Hire Me</div>
+          <Welcome/>
+          <ProjectList />
+          <About />
+          <Contact />
         </div>
     );
   }
